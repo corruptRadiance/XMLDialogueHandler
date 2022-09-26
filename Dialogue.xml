@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!--Is there a specific version I should be using?-->
+<?xml version="1.0" encoding="UTF-8"?>
 <tree>
     <dialogue id = "0">
-        <!--<index>0</index>-->
         <char>Character 1</char>
         <text>Text goes here :3</text>
-        <image>character1.png</image><!--Could be used for character icons, might be simpler to derive name of filepath from <char> but w/e -->
+        <image>character1.png</image>
     </dialogue>
 
     <dialogue id = "1">

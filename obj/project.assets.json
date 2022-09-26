@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XML Learning\\XML Learning.csproj",
-      "projectName": "XML Learning",
-      "projectPath": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XML Learning\\XML Learning.csproj",
+      "projectUniqueName": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XMLDialogueHandler\\XMLDialogueHandler.csproj",
+      "projectName": "XMLDialogueHandler",
+      "projectPath": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XMLDialogueHandler\\XMLDialogueHandler.csproj",
       "packagesPath": "C:\\Users\\eian3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XML Learning\\obj\\",
+      "outputPath": "C:\\Users\\eian3\\Desktop\\Dev Stuff\\XMLDialogueHandler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eian3\\AppData\\Roaming\\NuGet\\NuGet.Config"
