@@ -33,12 +33,6 @@ namespace DialogueGame
             Character 1: Text goes here :3
             
             */
-
-            // for (int i = 0; i <= 4; i++)
-            // {
-            //     currentDialogue = DialogueHandler.FindDialogue(i.ToString());
-            //     Console.WriteLine(currentDialogue.completeDialogue + "\n");
-            // }
         }
     }
 }
