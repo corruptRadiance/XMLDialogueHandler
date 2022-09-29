@@ -25,7 +25,7 @@
     </dialogue>
 
     <dialogue id = "4">
-        <char>sheesh</char>
+        <char>Sheesh</char>
         <text>here is a sentence.&#xA;this sentence is on a new line, i wonder how the program will handle that</text>
         <image></image>
     </dialogue>

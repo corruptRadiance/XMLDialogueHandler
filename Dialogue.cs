@@ -31,9 +31,9 @@ namespace DialogueGame.Dialogue
         //static string? currentCharacter, currentText, currentImagePath;
         //static bool isReading;
 
-        static public XmlReader reader{set{
-            xr = value;
-        }}
+        // static public XmlReader reader{set{
+        //     xr = value;
+        // }}
 
         static public DialogueObject FindDialogue(string id)
         {
@@ -50,10 +50,7 @@ namespace DialogueGame.Dialogue
             can't seem to find a way to return the Reader to Depth 0.
             */
 
-            if (xr == null)
-            {
-                throw new NullReferenceException("No XMLReader instance found.");
-            }
+            xr = XmlReader.Create("Dialogue.xml"); // Creating an instance of the reader every time sounds very inefficient but seems like an ok band-aid fix for now
 
             string c, t, i;
 
@@ -64,7 +61,8 @@ namespace DialogueGame.Dialogue
                 if (xr.Value == "") // If reader reads beyond final <dialogue> object. NOTE: this means any dialogue with an id of "" will cause an error.
                 {
                     Console.WriteLine("Warning: No dialogue with id: \"" + id + "\" was found. Make sure id has been input correctly.");
-                    return new DialogueObject("", "", "");
+                    return new DialogueObject("", "", ""); // I want to return null here but that causes a crash and that's like not the point of XML so 
+                    // return null;
                 }
             }
 
@@ -79,8 +77,6 @@ namespace DialogueGame.Dialogue
             xr.ReadToFollowing("image");
             xr.Read();
             i = xr.Value;
-            
-            //Console.WriteLine("\nFinished finding dialogue.");
 
             return new DialogueObject(c, t, i);
         }
