@@ -25,17 +25,10 @@ namespace DialogueGame.Dialogue
     public class DialogueHandler
     {
         // Contains all the logic for parsing Dialogue.xml and handing results to other objects
-        static XmlDocument? doc;
         static XmlReader? xr;
         static XmlNodeType? currentNodeType;
         static string? currentNodeName, currentNodeValue;
         static public string? Path;
-        //static string? currentCharacter, currentText, currentImagePath;
-        //static bool isReading;
-
-        // static public XmlReader reader{set{
-        //     xr = value;
-        // }}
 
         static public DialogueObject FindDialogue(string path, string id)
         {
@@ -43,18 +36,8 @@ namespace DialogueGame.Dialogue
             Read through each <dialogue> Element to find the requested dialogue given 
             its id, then return the values of its Child Elements as a new DialogueObject
 
-            This is probably not the best way to do this, if the dialogue I'm searching for
-            has the highest possible id in a tree that contains hundreds or thousands of
-            lines of dialogue, this solution could take a very long time to complete.
-
-            ALSO currently this doesn't work if you read dialogue out of consecutive order.
-            I don't want to create an XMLReader every single time I run the method, and I
-            can't seem to find a way to return the Reader to Depth 0.
-            */
-            
-            /*
-            Planned solution:
-            Load .xml as XMLDocument and use GetElementByID
+            I previously thought this would be inefficient but it actually seems to work
+            pretty quickly even when pulling the final object from a list of 10k
             */
 
             xr = XmlReader.Create(path); // Creating an instance of the reader every time sounds very inefficient but seems like an ok band-aid fix for now

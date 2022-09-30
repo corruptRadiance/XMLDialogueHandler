@@ -14,23 +14,17 @@ namespace DialogueGame
 
         static DialogueObject? currentDialogue;
         static string path = "Stress Testing/StressDialogue.xml";
-        static int count = 1000;
+        static int count = 1000; // Amount of dialogue objects to write
 
         static void Main()
         {
-            // Console.Write("Length of XML File: ");
-            // count = Console.Read();
-
             Stopwatch sw = new Stopwatch();
             XMLGenerator.NewXMLFile(path, count);
 
             sw.Start();
 
-            for (int i = 0; i < count; i++)
-            {
-                currentDialogue = DialogueHandler.FindDialogue(path, i.ToString());
-                Console.WriteLine(i + ": " + currentDialogue.completeDialogue + " | Time elapsed: " + sw.Elapsed);
-            }
+            currentDialogue = DialogueHandler.FindDialogue(path, (count-1).ToString());
+            Console.WriteLine(currentDialogue.completeDialogue + "\nTime elapsed: " + sw.Elapsed);
 
             sw.Stop();
         }
