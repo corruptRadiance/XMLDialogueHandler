@@ -9,4 +9,4 @@ Custom XML Reader built for handling dialogue in future game projects
     - ~~Check time required to find each object~~
 
 - More robust id system to account for branching dialogue
-- Use XMLDocument to load .xml so program isn't reading through every fucking fjl;askdfj;lasdjdflp;asdknf <dialogue> object
+- Use XMLDocument to load .xml so program isn't reading through every fucking fjl;askdfj;lasdjdflp;asdknf dialogue object
