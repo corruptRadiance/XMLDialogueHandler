@@ -25,9 +25,11 @@ namespace DialogueGame.Dialogue
     public class DialogueHandler
     {
         // Contains all the logic for parsing Dialogue.xml and handing results to other objects
+        static XmlDocument? doc;
         static XmlReader? xr;
         static XmlNodeType? currentNodeType;
         static string? currentNodeName, currentNodeValue;
+        static public string? Path;
         //static string? currentCharacter, currentText, currentImagePath;
         //static bool isReading;
 
@@ -35,7 +37,7 @@ namespace DialogueGame.Dialogue
         //     xr = value;
         // }}
 
-        static public DialogueObject FindDialogue(string id)
+        static public DialogueObject FindDialogue(string path, string id)
         {
             /* 
             Read through each <dialogue> Element to find the requested dialogue given 
@@ -49,8 +51,13 @@ namespace DialogueGame.Dialogue
             I don't want to create an XMLReader every single time I run the method, and I
             can't seem to find a way to return the Reader to Depth 0.
             */
+            
+            /*
+            Planned solution:
+            Load .xml as XMLDocument and use GetElementByID
+            */
 
-            xr = XmlReader.Create("Dialogue.xml"); // Creating an instance of the reader every time sounds very inefficient but seems like an ok band-aid fix for now
+            xr = XmlReader.Create(path); // Creating an instance of the reader every time sounds very inefficient but seems like an ok band-aid fix for now
 
             string c, t, i;
 

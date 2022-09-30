@@ -2,7 +2,9 @@
 using System.IO;
 using System.Text;
 using System.Xml;
+using System.Diagnostics;
 using DialogueGame.Dialogue;
+using DialogueGame.StressTest;
 
 namespace DialogueGame
 {
@@ -11,28 +13,26 @@ namespace DialogueGame
         // Write dialogue to console in order, awaiting user input between statements
 
         static DialogueObject? currentDialogue;
+        static string path = "Stress Testing/StressDialogue.xml";
+        static int count = 1000;
 
         static void Main()
         {
-            currentDialogue = DialogueHandler.FindDialogue("2");
-            Console.WriteLine(currentDialogue.completeDialogue + "\n");
+            // Console.Write("Length of XML File: ");
+            // count = Console.Read();
 
-            currentDialogue = DialogueHandler.FindDialogue("4");
-            Console.WriteLine(currentDialogue.completeDialogue + "\n");
+            Stopwatch sw = new Stopwatch();
+            XMLGenerator.NewXMLFile(path, count);
 
-            currentDialogue = DialogueHandler.FindDialogue("0");
-            Console.WriteLine(currentDialogue.completeDialogue + "\n");
+            sw.Start();
 
-            /*
-            OUTPUT:
-            Character 1: My name My name is Character 1 and I am saying words
+            for (int i = 0; i < count; i++)
+            {
+                currentDialogue = DialogueHandler.FindDialogue(path, i.ToString());
+                Console.WriteLine(i + ": " + currentDialogue.completeDialogue + " | Time elapsed: " + sw.Elapsed);
+            }
 
-            Sheesh: here is a sentence.
-            this sentence is on a new line, i wonder how the program will handle that
-
-            Character 1: Text goes here :3
-            
-            */
+            sw.Stop();
         }
     }
 }
