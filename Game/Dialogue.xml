@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree>
+    <dialogue id = "0">
+        <char>@</char>
+        <text>Do not tamper with files in the location where this program is [LOCATED]</text>
+        <image/>
+    </dialogue>
+    
+    <dialogue id = "1">
+        <char>@</char>
+        <text>This behaviour may lead to [UNINTENDED] errors in the program.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "2">
+        <char>@</char>
+        <text>Furthermore; Users should ensure they are occupying a verified [SPACE] while engaging with this program.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "3">
+        <char>@</char>
+        <text>Failure to comply may result in</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "4">
+        <char>@</char>
+        <text></text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "5">
+        <char>@</char>
+        <text>Failure to</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "6">
+        <char>@</char>
+        <text></text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "7">
+        <char>@</char>
+        <text></text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "8">
+        <char></char>
+        <text></text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "9">
+        <char>Juniper</char>
+        <text>I don't understand.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "10">
+        <char>Juniper</char>
+        <text>I-- I mean, I don't... I don't fucking understand.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "11">
+        <char>Juniper</char>
+        <text>What in God's name am I looking at?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "12">
+        <char></char>
+        <text>Isn't that for you to tell me?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "13">
+        <char></char>
+        <text>If it was that important, I would've told you the answer already.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "14">
+        <char>Juniper</char>
+        <text>Don't--</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "15">
+        <char>Juniper</char>
+        <text>Christ, you sound like her...</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "16">
+        <char>Juniper</char>
+        <text>What are you doing here? Why are you in my house?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "17">
+        <char></char>
+        <text>Oh, isn't that cute. Isn't it a joyous and small wonder, to entertain such a question.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "18">
+        <char></char>
+        <text>Look upon yourself, precious. Do you know that you have permission to ask? Do you know for certain that you are... Safe?</text>
+        <image>https://drive.google.com/drive/folders/15bzjwpwtpwO8q_vrZ3JHUK_tduoUgN06?usp=sharing</image>
+    </dialogue>
+
+    <dialogue id = "19">
+        <char>Juniper</char>
+        <text>Of course I don't. I wouldn't have found "you" if I didn't feel compelled.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "20">
+        <char>Juniper</char>
+        <text>And now all I have is... ugh.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "21">
+        <char>Juniper</char>
+        <text>A headache.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "22">
+        <char></char>
+        <text>Compulsion... Are you sure?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "23">
+        <char></char>
+        <text>I'm not.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "24">
+        <char></char>
+        <text>Darling, I look at you and all I see is the family dog.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "25">
+        <char></char>
+        <text>Oh how you -reek- of need, and shame, and mud, and shit.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "26">
+        <char></char>
+        <text>No, no, no. Not compulsion. Obedience.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "27">
+        <char></char>
+        <text>You found me because to do anything else would be disobedience.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "28">
+        <char>Juniper</char>
+        <text>You don't... You don't get to speak that way.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "29">
+        <char>Juniper</char>
+        <text>I mean, -look- at you. You are a tiny, pathetic little creature living in my wall!</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "30">
+        <char>Juniper</char>
+        <text>I could kill you.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "31">
+        <char></char>
+        <text>Go ahead then, if it's that easy.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "32">
+        <char>Juniper</char>
+        <text>...</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "33">
+        <char>Juniper</char>
+        <text>What's your name?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "34">
+        <char></char>
+        <text>My name?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "35">
+        <char></char>
+        <text>You want something as inane as a name?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "36">
+        <char>My name</char>
+        <text>is anything you want it to be</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "37">
+        <char>a collapsed head</char>
+        <text>It doesn't matter what my name is.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "38">
+        <char>a raised hand</char>
+        <text>You fear me the same.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "39">
+        <char>Juniper</char>
+        <text>What do you want?</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "40">
+        <char></char>
+        <text>Now, that is a question I can answer.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "41">
+        <char>@</char>
+        <text>NullReferenceException thrown: No data found. File: C:\Users\Charlie\SURVEILANCE_00\Unknown.mp4 damaged or missing. UserNote: Find Juniper.</text>
+        <image/>
+    </dialogue>
+
+    <dialogue id = "42">
+        <char>@</char>
+        <text>Note: Program was unable to display image at dialogue id "18". Check File: Dialogue.xml, Line 114</text>
+        <image/>
+    </dialogue>
+</tree>
